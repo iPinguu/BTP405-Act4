@@ -61,18 +61,5 @@ class Test_ServerEndpoint(unittest.TestCase):
         response_data = json.loads(data)
         self.assertEqual(response_data, {'received': {"message": "test"}})
 
-
-
-        
-
-
-
-
-
-
-
-
-
-
 if __name__ == "__main__":
     unittest.main()
